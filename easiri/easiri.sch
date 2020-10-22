@@ -5501,15 +5501,46 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <wire x1="7.4" y1="5.75" x2="7.4" y2="0" width="0.127" layer="21"/>
 <wire x1="7.4" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 </package>
-<package name="XT60">
-<wire x1="0" y1="0" x2="0" y2="8.1" width="0.127" layer="21"/>
-<pad name="-" x="11.35" y="4.05" drill="4.5"/>
-<pad name="+" x="4.15" y="4.05" drill="4.5"/>
-<wire x1="0" y1="0" x2="12.5" y2="0" width="0.127" layer="21"/>
-<wire x1="12.5" y1="0" x2="15.5" y2="2.55" width="0.127" layer="21"/>
-<wire x1="15.5" y1="2.55" x2="15.5" y2="5.55" width="0.127" layer="21"/>
-<wire x1="15.5" y1="5.55" x2="12.5" y2="8.1" width="0.127" layer="21"/>
-<wire x1="0" y1="8.1" x2="12.5" y2="8.1" width="0.127" layer="21"/>
+<package name="CON_HEDA14P_1.27">
+<wire x1="0" y1="0" x2="0" y2="1.905" width="0.127" layer="21"/>
+<wire x1="0" y1="6.985" x2="0" y2="8.89" width="0.127" layer="21"/>
+<wire x1="0" y1="8.89" x2="3.43" y2="8.89" width="0.127" layer="21"/>
+<wire x1="3.43" y1="8.89" x2="3.43" y2="6.985" width="0.127" layer="21"/>
+<wire x1="3.43" y1="1.905" x2="3.43" y2="0" width="0.127" layer="21"/>
+<wire x1="3.43" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="13" x="1.08" y="0.635" drill="0.6"/>
+<pad name="11" x="1.08" y="1.905" drill="0.6"/>
+<pad name="9" x="1.08" y="3.175" drill="0.6"/>
+<pad name="7" x="1.08" y="4.445" drill="0.6"/>
+<pad name="5" x="1.08" y="5.715" drill="0.6"/>
+<pad name="3" x="1.08" y="6.985" drill="0.6"/>
+<pad name="1" x="1.08" y="8.255" drill="0.6"/>
+<pad name="2" x="2.35" y="8.255" drill="0.6"/>
+<pad name="4" x="2.35" y="6.985" drill="0.6"/>
+<pad name="6" x="2.35" y="5.715" drill="0.6"/>
+<pad name="8" x="2.35" y="4.445" drill="0.6"/>
+<pad name="10" x="2.35" y="3.175" drill="0.6"/>
+<pad name="12" x="2.35" y="1.905" drill="0.6"/>
+<pad name="14" x="2.35" y="0.635" drill="0.6"/>
+<wire x1="0" y1="1.905" x2="-0.825" y2="1.905" width="0.127" layer="21"/>
+<wire x1="0" y1="6.985" x2="-0.825" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-0.825" y1="6.985" x2="-0.825" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-0.825" y1="5.715" x2="-0.825" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-0.825" y1="3.175" x2="-0.825" y2="1.905" width="0.127" layer="21"/>
+<wire x1="3.43" y1="6.985" x2="4.255" y2="6.985" width="0.127" layer="21"/>
+<wire x1="4.255" y1="6.985" x2="4.255" y2="1.905" width="0.127" layer="21"/>
+<wire x1="4.255" y1="1.905" x2="3.43" y2="1.905" width="0.127" layer="21"/>
+<wire x1="0" y1="5.715" x2="0" y2="3.175" width="0.127" layer="21"/>
+<wire x1="0" y1="3.175" x2="-0.825" y2="3.175" width="0.127" layer="21"/>
+<wire x1="0" y1="5.715" x2="-0.825" y2="5.715" width="0.127" layer="21"/>
+</package>
+<package name="YUROBLOCK2">
+<wire x1="0" y1="0" x2="0" y2="10.16" width="0.127" layer="21"/>
+<wire x1="0" y1="10.16" x2="12" y2="10.16" width="0.127" layer="21"/>
+<wire x1="12" y1="10.16" x2="12" y2="0" width="0.127" layer="21"/>
+<wire x1="12" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="P$1" x="2" y="7.62" drill="1.8" shape="square"/>
+<pad name="P$2" x="2" y="2.54" drill="1.8" shape="square"/>
 </package>
 </packages>
 <symbols>
@@ -5537,13 +5568,33 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="95"/>
 <wire x1="10.16" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="95"/>
 </symbol>
-<symbol name="XT60">
-<pin name="+" x="-2.54" y="5.08" length="middle" rot="R270"/>
-<pin name="-" x="2.54" y="5.08" length="middle" rot="R270"/>
-<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<symbol name="BOX14PIN">
+<pin name="P$1" x="-5.08" y="15.24" length="middle"/>
+<pin name="P$2" x="-5.08" y="12.7" length="middle"/>
+<pin name="P$3" x="-5.08" y="10.16" length="middle"/>
+<pin name="P$4" x="-5.08" y="7.62" length="middle"/>
+<pin name="P$5" x="-5.08" y="5.08" length="middle"/>
+<pin name="P$6" x="-5.08" y="2.54" length="middle"/>
+<pin name="P$7" x="-5.08" y="0" length="middle"/>
+<pin name="P$8" x="-5.08" y="-2.54" length="middle"/>
+<pin name="P$9" x="-5.08" y="-5.08" length="middle"/>
+<pin name="P$10" x="-5.08" y="-7.62" length="middle"/>
+<pin name="P$11" x="-5.08" y="-10.16" length="middle"/>
+<pin name="P$12" x="-5.08" y="-12.7" length="middle"/>
+<pin name="P$13" x="-5.08" y="-15.24" length="middle"/>
+<pin name="P$14" x="-5.08" y="-17.78" length="middle"/>
+<wire x1="-2.54" y1="17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="17.78" x2="7.62" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-20.32" x2="-2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-20.32" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
+</symbol>
+<symbol name="YUROBLOCK2">
+<pin name="P$1" x="-7.62" y="2.54" length="middle"/>
+<pin name="P$2" x="-7.62" y="-2.54" length="middle"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5622,15 +5673,99 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="XT60">
+<deviceset name="BOX14P">
 <gates>
-<gate name="G$1" symbol="XT60" x="0" y="2.54"/>
+<gate name="G$1" symbol="BOX14PIN" x="-2.54" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="XT60">
+<device name="" package="CON_HEDA14P_1.27">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$10" pad="10"/>
+<connect gate="G$1" pin="P$11" pad="11"/>
+<connect gate="G$1" pin="P$12" pad="12"/>
+<connect gate="G$1" pin="P$13" pad="13"/>
+<connect gate="G$1" pin="P$14" pad="14"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+<connect gate="G$1" pin="P$7" pad="7"/>
+<connect gate="G$1" pin="P$8" pad="8"/>
+<connect gate="G$1" pin="P$9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="YUROBLOCK2">
+<description>ユーロブロック&lt;br&gt;
+秋月電子[P-11599]</description>
+<gates>
+<gate name="G$1" symbol="YUROBLOCK2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="YUROBLOCK2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="user_leds">
+<packages>
+<package name="RGB_LED">
+<smd name="R_K" x="0" y="0" dx="1.5" dy="0.9" layer="1"/>
+<smd name="G_K" x="0" y="-1.35" dx="1.5" dy="0.9" layer="1"/>
+<smd name="B_K" x="0" y="-2.7" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="R_A" x="3.5" y="0" dx="1.5" dy="0.9" layer="1"/>
+<smd name="G_A" x="3.5" y="-1.35" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="B_A" x="3.5" y="-2.7" dx="1.5" dy="0.9" layer="1"/>
+<wire x1="0" y1="1.27" x2="3.2" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="1.27" x2="0" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.81" x2="3.2" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="3.2" y1="-3.81" x2="3.2" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RGB_LED">
+<pin name="R_A" x="-15.24" y="5.08" length="middle"/>
+<pin name="G_A" x="-15.24" y="0" length="middle"/>
+<pin name="B_A" x="-15.24" y="-5.08" length="middle"/>
+<pin name="R_K" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="G_K" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="B_K" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RGB_LED">
+<description>秋月電子通商　I-12726</description>
+<gates>
+<gate name="G$1" symbol="RGB_LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RGB_LED">
+<connects>
+<connect gate="G$1" pin="B_A" pad="B_A"/>
+<connect gate="G$1" pin="B_K" pad="B_K"/>
+<connect gate="G$1" pin="G_A" pad="G_A"/>
+<connect gate="G$1" pin="G_K" pad="G_K"/>
+<connect gate="G$1" pin="R_A" pad="R_A"/>
+<connect gate="G$1" pin="R_K" pad="R_K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5675,8 +5810,6 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <part name="OSC1" library="user_osc" deviceset="CSTN#" device="" value="12M"/>
 <part name="R3" library="user_rcl" deviceset="R_REG" device="" value="10k"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="BOX10P-L1" library="user_conector" deviceset="BOX10P" device=""/>
-<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BOX10P-L2" library="user_conector" deviceset="BOX10P" device="BOX10P-L"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5710,10 +5843,14 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <part name="U$20" library="user_conector" deviceset="XH_2P" device=""/>
 <part name="VDD3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="U$21" library="user_rcl" deviceset="C_DEKAI" device="" value="330u"/>
-<part name="U$12" library="user_conector" deviceset="XT60" device=""/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1608" package3d_urn="urn:adsk.eagle:package:23621/2" value="0.1u"/>
 <part name="VDD5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
+<part name="U$22" library="user_conector" deviceset="BOX14P" device=""/>
+<part name="R_I5" library="user_rcl" deviceset="R_SHUGOU" device="" value="1k"/>
+<part name="U$23" library="user_leds" deviceset="RGB_LED" device=""/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$12" library="user_conector" deviceset="YUROBLOCK2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5803,16 +5940,12 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <attribute name="NAME" x="134.62" y="99.06" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="149.86" y="109.22" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="228.6" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="227.1014" y="133.35" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="231.902" y="133.35" size="1.778" layer="96" rot="R90"/>
+<instance part="R3" gate="G$1" x="228.6" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="227.1014" y="146.05" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="231.902" y="146.05" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND6" gate="1" x="233.68" y="144.78" smashed="yes">
 <attribute name="VALUE" x="231.14" y="142.24" size="1.778" layer="96"/>
-</instance>
-<instance part="BOX10P-L1" gate="G$1" x="22.86" y="132.08" smashed="yes"/>
-<instance part="GND7" gate="1" x="53.34" y="76.2" smashed="yes">
-<attribute name="VALUE" x="50.8" y="73.66" size="1.778" layer="96"/>
 </instance>
 <instance part="BOX10P-L2" gate="G$1" x="88.9" y="127" smashed="yes"/>
 <instance part="P+2" gate="VCC" x="114.3" y="88.9" smashed="yes">
@@ -5888,7 +6021,6 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <attribute name="NAME" x="664.9974" y="148.463" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="670.0774" y="148.463" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$12" gate="G$1" x="668.02" y="134.62" smashed="yes"/>
 <instance part="C11" gate="G$1" x="665.48" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="665.099" y="159.004" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="670.179" y="159.004" size="1.778" layer="96" rot="R90"/>
@@ -5899,6 +6031,16 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <instance part="GND12" gate="1" x="685.8" y="157.48" smashed="yes">
 <attribute name="VALUE" x="683.26" y="154.94" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$22" gate="G$1" x="20.32" y="101.6" smashed="yes" rot="R180"/>
+<instance part="R_I5" gate="G$1" x="281.94" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="276.86" y="130.175" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="291.338" y="129.54" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U$23" gate="G$1" x="294.64" y="116.84" smashed="yes"/>
+<instance part="GND7" gate="1" x="309.88" y="104.14" smashed="yes">
+<attribute name="VALUE" x="307.34" y="101.6" size="1.778" layer="96"/>
+</instance>
+<instance part="U$12" gate="G$1" x="668.02" y="132.08" smashed="yes" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -5949,14 +6091,19 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <label x="182.88" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$1"/>
-<wire x1="27.94" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
-<label x="35.56" y="132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$5" gate="G$1" pin="VIO"/>
 <wire x1="203.2" y1="7.62" x2="210.82" y2="7.62" width="0.1524" layer="91"/>
 <label x="210.82" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$3"/>
+<wire x1="25.4" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
+<label x="27.94" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R_I5" gate="G$1" pin="5"/>
+<wire x1="287.02" y1="139.7" x2="287.02" y2="142.24" width="0.1524" layer="91"/>
+<label x="287.02" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6030,22 +6177,8 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="233.68" y1="147.32" x2="233.68" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="142.24" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="154.94" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="152.4" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$3"/>
-<wire x1="27.94" y1="121.92" x2="53.34" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="121.92" x2="53.34" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$9"/>
-<wire x1="53.34" y1="111.76" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="91.44" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
-<junction x="53.34" y="91.44"/>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$5"/>
-<wire x1="27.94" y1="111.76" x2="53.34" y2="111.76" width="0.1524" layer="91"/>
-<junction x="53.34" y="111.76"/>
 </segment>
 <segment>
 <pinref part="BOX10P-L2" gate="G$1" pin="P$7"/>
@@ -6095,6 +6228,32 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <pinref part="U$6" gate="G$1" pin="2_K"/>
 <wire x1="363.22" y1="121.92" x2="358.14" y2="121.92" width="0.1524" layer="91"/>
 <junction x="358.14" y="121.92"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$5"/>
+<wire x1="25.4" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
+<label x="27.94" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$7"/>
+<wire x1="25.4" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
+<label x="27.94" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$11"/>
+<wire x1="25.4" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
+<label x="27.94" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$23" gate="G$1" pin="R_K"/>
+<pinref part="U$23" gate="G$1" pin="G_K"/>
+<wire x1="309.88" y1="121.92" x2="309.88" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U$23" gate="G$1" pin="B_K"/>
+<wire x1="309.88" y1="116.84" x2="309.88" y2="111.76" width="0.1524" layer="91"/>
+<junction x="309.88" y="116.84"/>
+<wire x1="309.88" y1="111.76" x2="309.88" y2="106.68" width="0.1524" layer="91"/>
+<junction x="309.88" y="111.76"/>
+<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -6188,9 +6347,9 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <junction x="180.34" y="99.06"/>
 </segment>
 <segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$10"/>
-<wire x1="27.94" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
-<label x="35.56" y="86.36" size="1.778" layer="95"/>
+<pinref part="U$22" gate="G$1" pin="P$12"/>
+<wire x1="25.4" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
+<label x="27.94" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -6214,56 +6373,56 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PIN31_BOOT0"/>
-<wire x1="228.6" y1="127" x2="228.6" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="127" x2="228.6" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="JTDI" class="0">
 <segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$8"/>
-<wire x1="27.94" y1="96.52" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
-<label x="35.56" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="PIN25"/>
 <wire x1="243.84" y1="127" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
 <label x="243.84" y="129.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$10"/>
+<wire x1="25.4" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
+<label x="27.94" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="JTDO" class="0">
-<segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$6"/>
-<wire x1="27.94" y1="106.68" x2="35.56" y2="106.68" width="0.1524" layer="91"/>
-<label x="35.56" y="106.68" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="PIN26"/>
 <wire x1="241.3" y1="127" x2="241.3" y2="134.62" width="0.1524" layer="91"/>
 <label x="241.3" y="134.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$8"/>
+<wire x1="25.4" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
+<label x="27.94" y="104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="JTMS" class="0">
-<segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$2"/>
-<wire x1="27.94" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
-<label x="35.56" y="127" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="PIN23"/>
 <wire x1="264.16" y1="104.14" x2="274.32" y2="104.14" width="0.1524" layer="91"/>
 <label x="274.32" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$4"/>
+<wire x1="25.4" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
+<label x="27.94" y="93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="JTCK" class="0">
-<segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$4"/>
-<wire x1="27.94" y1="116.84" x2="35.56" y2="116.84" width="0.1524" layer="91"/>
-<label x="35.56" y="116.84" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="PIN24"/>
 <wire x1="264.16" y1="106.68" x2="274.32" y2="106.68" width="0.1524" layer="91"/>
 <label x="274.32" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$6"/>
+<wire x1="25.4" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
+<label x="27.94" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V12" class="0">
@@ -6441,7 +6600,6 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <junction x="581.66" y="50.8"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="+"/>
 <wire x1="665.48" y1="139.7" x2="662.94" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="U$21" gate="G$1" pin="+"/>
 <wire x1="662.94" y1="139.7" x2="662.94" y2="147.32" width="0.1524" layer="91"/>
@@ -6451,6 +6609,7 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <wire x1="662.94" y1="157.48" x2="662.94" y2="167.64" width="0.1524" layer="91"/>
 <junction x="662.94" y="157.48"/>
 <pinref part="VDD5" gate="G$1" pin="VDD"/>
+<pinref part="U$12" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -6619,7 +6778,6 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <junction x="398.78" y="2.54"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="-"/>
 <pinref part="U$21" gate="G$1" pin="-"/>
 <wire x1="670.56" y1="139.7" x2="670.56" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
@@ -6630,6 +6788,7 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <wire x1="670.56" y1="167.64" x2="685.8" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GNDA"/>
 <wire x1="685.8" y1="167.64" x2="685.8" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U$12" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -6814,6 +6973,72 @@ https://akizukidenshi.com/catalog/c/cceralock/</description>
 <wire x1="347.98" y1="116.84" x2="347.98" y2="127" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="2_A"/>
 <wire x1="347.98" y1="127" x2="363.22" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RX" class="0">
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$13"/>
+<wire x1="25.4" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
+<label x="27.94" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PIN30"/>
+<wire x1="231.14" y1="127" x2="231.14" y2="132.08" width="0.1524" layer="91"/>
+<label x="231.14" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TX" class="0">
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$14"/>
+<wire x1="25.4" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
+<label x="27.94" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PIN29"/>
+<wire x1="233.68" y1="127" x2="233.68" y2="132.08" width="0.1524" layer="91"/>
+<label x="233.68" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PIN27"/>
+<wire x1="238.76" y1="127" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="R_I5" gate="G$1" pin="8"/>
+<wire x1="238.76" y1="139.7" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="R_I5" gate="G$1" pin="7"/>
+<wire x1="281.94" y1="139.7" x2="281.94" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="142.24" x2="236.22" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="PIN28"/>
+<wire x1="236.22" y1="142.24" x2="236.22" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="R_I5" gate="G$1" pin="4"/>
+<wire x1="287.02" y1="127" x2="287.02" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U$23" gate="G$1" pin="B_A"/>
+<wire x1="287.02" y1="111.76" x2="279.4" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="U$23" gate="G$1" pin="R_A"/>
+<pinref part="R_I5" gate="G$1" pin="1"/>
+<wire x1="279.4" y1="121.92" x2="279.4" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="R_I5" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="127" x2="281.94" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="124.46" x2="274.32" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="U$23" gate="G$1" pin="G_A"/>
+<wire x1="274.32" y1="124.46" x2="274.32" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="116.84" x2="279.4" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -1,9 +1,0 @@
-マイコンのピン番号とエアシリ番号つながり（EaSiriの頭文字でes）
-pin9=es5
-pin10=es6
-pin11=es7
-pin12=es8
-pin13=es1
-pin14=es2
-pin15=es3
-pin18=es4
